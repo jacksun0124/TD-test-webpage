@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>TD ONLINE BANKING</title>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+
+<!-- Import Font Awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<!-- Import jquery-->
+<script src="jquery/jquery-2.2.4.js"></script>
+<!-- Import jquery end-->
+
+<!-- Import bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Import bootstrap end -->
+
+
+
+
+<link rel="stylesheet" href="css/style.css">
+
+</head> 
+<body>
+	<!-- header and nav -->
+	<div class="header">
+		<div class="row header-row">
+		<nav class="navbar">
+			
+		  	<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <img alt="TD-logo" class="logo" src="image/logo.png">	
+		      <a class="navbar-brand" href="#">
+		      	TD Insurance
+		      </a>
+		      <img src="image/lock.png" class="lock2">
+		    </div>
+
+		    <!-- Nav links -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Products</a></li>
+		        <li><a href="#">Claims</a></li>
+		        <li><a href="#">Contact Us</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ontario<span class="glyphicon glyphicon-menu-down"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Ontario</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">BC</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EN<span class="glyphicon glyphicon-menu-down"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">EN</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">FR</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#" id="search-btn"><img src="image/search.png"></a></li>
+		        <li class="login"><a href="#"><img src="image/lock.png" class="lock">Login</a></li>
+		      </ul>
+		      <form class="navbar-form navbar-right">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  	</div><!-- /.container-fluid -->
+		</nav>
+		</div>
+	</div><!-- header and nav end-->
+
+	<!-- Body content -->
+	<div class="container main-con">
+		<!-- left content -->
+		<div class="col-md-9">
+			<div class="p1">Tell Us About Yourself</div>
+			<div class="p2">Thanks for choosing TD Insurance! in order to salely set up your new accounts and services, please tell us about yourself.</div>
+			<div class="p3">Personal Information</div>
+			<div>
+				<!-- info form -->
+				<form>
+					<div class="dropdown col-md-2">
+					    <button class="btn btn-default dropdown-toggle tit-btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    Title*
+					    <span class="glyphicon glyphicon-menu-down"></span>
+					  	</button>
+					  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Title 1</a></li>
+						    <li><a href="#">Title 2</a></li>
+						    <li><a href="#">Title 3</a></li>
+					  	</ul>
+					</div>
+					<div class="col-md-3"><input type="text" placeholder="First Name*" ></div>
+					<div class="col-md-3"><input type="text" placeholder="Middle Initial"></div>
+					<div class="col-md-4"><input type="text" placeholder="Last Name*"></div>
+					<div class="col-md-5 more"><input type="text" placeholder="Email Address*"><img class="ques-image" src="image/question.png" title="This is a input box"></div>
+					<div class="col-md-3"><input type="text" placeholder="Date of Birth*"></div>
+					<div class="col-md-4 more more2"><input type="text" placeholder="Social Insurance Number*"><img class="ques-image" src="image/question.png" title="This is a input box"></div>
+					<div class="end-btn">
+						<button type="button" class="btn btn-warning">Cancel</button>
+						<button type="button" class="btn btn-success">Submit</button>
+					</div>
+				</form><!-- info form end -->
+			</div>
+		</div>
+		<!-- right content -->
+		<div class="col-md-3">
+			<div class="p4">You are applying for:</div>
+			<div class="p5">TD® Travel Medical Insurance</div>
+			<button type="button" class="btn btn-success coverage-btn">See More Coverage Options</button>
+		</div>
+		
+	</div><!-- Body content end-->
+
+	<!-- Footer -->
+	<div class="container-fluid footer">
+		<div class="container">
+			<div class="p6">Need to talk to us directly? <span>Contact us ></span></div>
+			<div class="divider footer-divider"></div>
+			<ul class="footer-nav">
+		        <li><a href="#">Privacy and Security</a></li>
+		        <li><a href="#">Legal</a></li>
+		        <li><a href="#">Accessibility</a></li>
+		        <li><a href="#">About Us</a></li>
+		        <li><a href="#">Careers</a></li>
+		    </ul>
+		    <div class="divider footer-divider"></div>
+		    <ul class="footer-icon-nav">
+		    	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+		    	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+		    	<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+		    	<li><a href="#"><i class="fas fa-rss"></i></a></li>
+		    </ul>
+		</div>
+	</div><!-- Footer end-->
+
+
+<script type="text/javascript">
+	// display or hide search area in header
+	$("#search-btn").click(function(){
+		$(".navbar-form").toggle();
+	});
+
+</script>
+</body>
+</html>
+
+
